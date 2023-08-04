@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="owl_playground.Card" owl="1">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title"><t t-slot="title"/></h5>
+            <h6 class="card-subtitle mb-2 text-muted"><t t-slot = "default"/></h6>
+        </div>
+    </div>
+    </t>
+</templates>
